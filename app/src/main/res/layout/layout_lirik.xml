@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@drawable/lyric_background"
+    android:orientation="vertical"
+    app:behavior_peekHeight="?actionBarSize"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/lyric_background"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:gravity="center">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/toogle_up_down"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lirik"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserratmedium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Balonku ada lima"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Rupa rupa warnanya"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hijau,"
+            android:textSize="14sp"
+            android:textColor="#5DCD2F"
+            android:fontFamily="@font/montserratlight"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuning,"
+            android:textSize="14sp"
+            android:textColor="#F6B616"
+            android:fontFamily="@font/montserratlight"
+            android:layout_marginLeft="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelabu"
+            android:textSize="14sp"
+            android:textColor="#7E7B7B"
+            android:fontFamily="@font/montserratlight"
+            android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Merah muda dan biru"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#000"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/door"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Meletus balon hijau DOOR!"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratregular"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hatiku sangat kacau"
+        android:gravity="end"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Balonku tinggal empat"
+        android:gravity="end"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="kupegang erat erat"
+        android:gravity="end"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:fontFamily="@font/montserratlight"
+        android:layout_marginTop="8dp"/>
+
+
+
+</LinearLayout>
